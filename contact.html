@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+
+    <style>
+      section.contact {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+        height: 100vh;
+        width: 100vw;
+      }
+
+      .contact_content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+        width: 1140px;
+        height: 500px;
+        background-color: #ebc5a7(37, 37, 37);
+        /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+          rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+      }
+      div.content01 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+        width: 100%;
+        max-height: 400px;
+      }
+      div.mailBox {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        /* justify-content: start; */
+        align-items: flex-start;
+        align-content: stretch;
+        /* margin-right: 20%; */
+        background-color: rgb(176, 176, 176);
+        /* height: 100%; */
+        padding: 80px 50px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+          rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        border-radius: 20px;
+      }
+
+      .mailBox span {
+        text-align: left;
+        width: 100%;
+      }
+      .mailBox input {
+        width: 100%;
+      }
+
+      div.info {
+        margin-left: 200px;
+        background-color: rgb(176, 176, 176);
+        padding: 80px 50px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+          rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="./index.html#home" id="aId">Accueil</a>
+      <a href="./index.html#about" id="aId">A propos</a>
+      <a href="./index.html#projects" id="aId">Mes projets</a>
+      <a href="./contact.html" id="aId">Contactez-moi!</a>
+      <div class="animation start-home" id=""></div>
+    </nav>
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact_content">
+          <div class="content01">
+            <div class="mailBox">
+              <!-- <div> -->
+              <span>Nom</span>
+              <input type="text" name="name" id="name" />
+              <label for="name"></label>
+              <!-- </div> -->
+              <!-- <div> -->
+              <span>Prénom</span>
+              <input type="text" name="prénom" id="prénom" />
+              <label for="prénom"></label>
+              <!-- </div> -->
+              <!-- </div> -->
+
+              <!-- <div> -->
+              <span>Adresse mail</span>
+              <input type="email" name="email" id="email" />
+              <label for="email"></label>
+              <!-- </div> -->
+              <!-- <div> -->
+              <span>Vôtre message</span>
+              <textarea rows="4" cols="50" name="comment" form="usrform">
+              Enter text here...</textarea
+              >
+              <!-- </div> -->
+            </div>
+            <!-- <input type="submit" value="Envoyez">  -->
+
+            <div class="info">
+              <h4>Email</h4>
+              <span>stevenferreiraalves@gmail.com</span>
+              <h4>Téléphone</h4>
+              <span>06.79.30.82.31</span>
+              <h4>Linkedin</h4>
+              <a href="https://www.linkedin.com/in/steven-ferreira-alves/"
+                >Steven FERREIRA ALVES</a
+              >
+              <h4>Pour plus de renseignement :</h4>
+              <a href="./asset/CV - FERREIRA ALVES Steven.pdf"
+                >Curriculum vitae</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
